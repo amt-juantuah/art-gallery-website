@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.home-banner {
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bn-hero {
+    width: 37%;
+    background-image: url('../assets/desktop/image-hero@2x.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border: 0;
+}
+
+.bn-dark, .bn-white {
+    width: 31.5%;
+    border: 0;
+}
+
+.bn-dark {
+    color: rgb(255, 255, 255);
+    background-color: rgb(21, 21, 21);
+}
+
+.bn-heading {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 50%;
+    margin-left: -55%;
+}
+
+.para-top {
+    margin-top: 60%;
+    margin-left: -15%;
+    margin-right: 20px;
+    width: 80%;
+}
+
+.loc-btn {
+    background-color: rgb(21, 21, 21);
+    width: 196px;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    margin-top: 50px;
+}
+
+.home-btn:hover, .home-btn:focus{
+    background: rgb(213, 150, 108);
+}
+
+.loc-btn:hover, .loc-btn:focus{
+    background: rgb(213, 150, 108)
+}
+
+.home-btn {
+    background-color: rgb(21, 21, 21);
+    width: 196px;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    margin-top: 0;
+    margin-left: 15%;
+}
+
+.home-btn a {
+    text-decoration: none;
+    color: white;
+    display: contents;
+}
+
+.loc-btn a {
+    text-decoration: none;
+    color: white;
+    display: contents;
+}
+
+
+
+.loc {
+    place-self: center;
+    width: 82%;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.loc:hover, .loc:focus {
+    background: rgb(213, 150, 108);
+}
+
+.arrow {
+    padding: 16px 9px;
+    width: 18%;
+    background: rgb(213, 150, 108);
+    text-align: center;
+}
+
+.arrow:hover, .arrow:focus {
+    background: rgb(0, 0, 0);
+}
+
+.blk {
+    background-color: rgb(21, 21, 21);
+}
+
+.brwn {
+    color: #D5966C;
+}
+
+.loc-banner {
+    background-color: rgb(117, 99, 99);
+    background-image: url('../assets/desktop/image-map@2x.png');
+    background-size: cover;
+    background-position: bottom;
+    border: 0;
+    height: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    margin: 0;
+}

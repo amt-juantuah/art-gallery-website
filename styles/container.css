@@ -1,0 +1,119 @@
+.container {
+    width: 75%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* background-color: bisque; */
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+}
+
+.first-grid {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: auto;
+}
+
+.second-grid {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.grid1 {
+    background-image: url('../assets/desktop/image-grid-1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    width: 60%;
+    border: 0;
+    margin: 10px;
+}
+
+.words {
+    width: 70%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.words h1 {
+    text-transform: uppercase;
+    font-family: system-ui;
+    font-size: xxx-large;
+    line-height: 1;
+}
+
+.grid2 {
+    width: 55%;
+    background-image: url('../assets/desktop/image-grid-2@2x.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border: 0;
+    margin: 10px;
+}
+
+.grid3-group {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid3 {
+    height: 50%;
+    background-image: url('../assets/desktop/image-grid-3@2x.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: 0;
+    margin: 10px;
+}
+
+.grid-words {
+    width: 45%;
+    margin: 10px;
+}
+
+.grid-words-low {
+    height: 50%;
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+/* spcific location css */
+
+.location-mid {
+    height: 500px;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.our, .king {
+    width: 50%;
+}
+
+.our h1 {
+    width: 270px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 130px;
+    color: white;
+    font-size: 50px;
+}
+
+.street {
+    width: 80%;
+    margin-top: 100px;
+}
+
+.street h2 {
+    color: white;
+    text-transform: uppercase;
+    color: rgb(213, 150, 108);
+}
+
+.street span, .street p {
+    color: white;
+}
