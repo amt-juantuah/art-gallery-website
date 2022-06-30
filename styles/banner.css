@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('./fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./fonts/BigShouldersDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+   box-sizing: border-box;
+   font-family: 'Outfit';
+}
+
 body {
     margin: 0;
 }
@@ -7,48 +22,98 @@ body {
     height: 650px;
     display: flex;
     flex-direction: row;
+
+    position: absolute;
+    width: 1275px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
 }
 
 .bn-hero {
-    width: 37%;
-    background-image: url('../assets/desktop/image-hero@2x.jpg');
+    /* width: 37%; */
+    background-image: url(../assets/desktop/image-hero@2x.jpg);
     background-size: cover;
     background-position: bottom;
     border: 0;
+    position: absolute;
+    left: 35.29%;
+    right: 22.35%;
+    top: 0%;
+    bottom: 0%;
 }
 
-.bn-dark, .bn-white {
-    width: 31.5%;
-    border: 0;
+.bn-white {
+    right: 0;
+    position: absolute;
+    width: 22.35%;
 }
 
 .bn-dark {
-    color: rgb(255, 255, 255);
-    background-color: rgb(21, 21, 21);
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 35.29%;
+
+    /* Almost Black */
+
+    background: #151515;
 }
 
 .bn-heading {
-    font-size: 20px;
-    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    position: absolute;
+    height: 176px;
+    left: -38.5%;
+}
+
+.bn-heading2 {
+    margin-top: 200px;
+    position: absolute;
+    height: 176px;
+    left: 242px;
+    right: -50.89%;
+    /* line-height: 65px; */
+    color: #FFFFFF;
+}
+
+.bn-heading2 span, .bn-heading span {
     text-transform: uppercase;
-    margin-top: 50%;
-    margin-left: -55%;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 90px;
+
 }
 
 .para-top {
-    margin-top: 60%;
-    margin-left: -15%;
+    margin-top: 70%;
+    margin-left: -25%;
     margin-right: 20px;
-    width: 80%;
+}
+
+.para-top p {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
 }
 
 .loc-btn {
     background-color: rgb(21, 21, 21);
-    width: 196px;
     display: flex;
     flex-direction: row;
-    height: 56px;
-    margin-top: 50px;
+    margin-top: 60px;
+
+    width: 260px;
+    height: 72px;
+    left: 925px;
+
 }
 
 .home-btn:hover, .home-btn:focus{
@@ -61,12 +126,12 @@ body {
 
 .home-btn {
     background-color: rgb(21, 21, 21);
-    width: 196px;
+    width: 260px;
     display: flex;
     flex-direction: row;
-    height: 56px;
+    height: 72px;
     margin-top: 0;
-    margin-left: 15%;
+    margin-left: 156px;
 }
 
 .home-btn a {
@@ -85,8 +150,11 @@ body {
 
 .loc {
     place-self: center;
-    width: 82%;
+    width: 78%;
+    font-family: "Big Shoulders Display";
+    letter-spacing: 3.63636px;
     text-transform: uppercase;
+    font-size: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
@@ -97,9 +165,12 @@ body {
 
 .arrow {
     padding: 16px 9px;
-    width: 18%;
+    width: 22%;
     background: rgb(213, 150, 108);
     text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
 
 .arrow:hover, .arrow:focus {
@@ -120,8 +191,70 @@ body {
     background-size: cover;
     background-position: bottom;
     border: 0;
-    height: 500px;
+    width: 1440px;
+    height: 600px;
     display: flex;
     /* flex-direction: row; */
     margin: 0;
+}
+.bn-heading3 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .bn-dark, .bn-heading {
+        display: none;
+    }
+
+    .home-banner {
+        width: 604px;
+        height: 700px;
+    }
+
+    .bn-hero {
+        width: 437px;
+        height: 700px;
+        left: 0;
+    }
+
+    .bn-white {
+        width: 332px;
+        left: 437px;
+        height: 700px;
+    }
+    
+    .bn-heading3 {
+        display: block;
+        margin-bottom: 41px;
+        margin-top: 140px;
+        margin-left: -47px;
+    }
+
+    .bn-heading3 span {
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 65px;
+    
+    }
+
+    .para-top {
+        margin-top: 0;
+        margin-left: -15%;
+        margin-right: 25px;
+    }
+    .para-top p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .loc-btn {
+        margin-top: 48px;
+        width: 260px;
+        height: 72px;
+        left: 925px;
+    }
+
 }
