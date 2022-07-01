@@ -257,4 +257,14 @@ body {
         left: 925px;
     }
 
+    .home-btn {
+        width: 264px;
+        margin-left: 39px;
+    }
+
+    .loc-banner {
+        width: 768px;
+        height: 600px;
+    }
+
 }
