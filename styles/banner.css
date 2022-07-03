@@ -41,6 +41,7 @@ body {
     right: 22.35%;
     top: 0%;
     bottom: 0%;
+    overflow: hidden;
 }
 
 .bn-white {
@@ -267,4 +268,73 @@ body {
         height: 600px;
     }
 
+}
+
+@media screen and (max-width: 376px) {
+    .bn-dark, .bn-heading {
+        display: none;
+    }
+
+    .home-banner {
+        width: 375px;
+        height: 630px;
+        flex-direction: column;
+    }
+
+    .loc-banner {
+        width: 375px;
+        height: 550px;
+    }
+
+    .bn-hero {
+        width: 375px;
+        height: 240px;
+        background-position: center;
+        left: 0%;
+        right: 0%;
+    }
+
+    .bn-white {
+        width: 375px;
+        left: 0%;
+        right: 0%;
+        height: 390px;
+        top: 240px;
+    }
+    
+    .bn-heading3 {
+        display: block;
+        margin-bottom: 32px;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    .bn-heading3 span {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    .para-top {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .para-top p {
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 32px 0;
+    }
+
+    .loc-btn {
+        margin-top: 0px;
+        width: 260px;
+        height: 72px;
+        left: 0px;
+    }
+
+    .home-btn {
+        width: 264px;
+        margin-left: 0;
+    }
 }

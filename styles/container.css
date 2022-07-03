@@ -24,6 +24,9 @@
     height: 700px;
 }
 
+.brk2 {
+    display: block;
+}
 .grid1 {
     background-image: url('../assets/desktop/image-grid-1.jpg');
     background-size: cover;
@@ -42,6 +45,9 @@
     width: 70%;
     margin-top: 15%;
 }
+.brk {
+    display: none;
+}
 
 .words h1 {
     text-transform: uppercase;
@@ -51,6 +57,7 @@
     color: #151515;
     height: 120px;
     font-weight: 900;
+    width: 250px;
 }
 
 .words p {
@@ -288,5 +295,178 @@
     .street p {
         font-size: 18px;
         line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .container {
+        height: 1605px;
+        width: 343px;
+        left: 16px;
+        right: 16px;
+        top: 750px;
+    }
+
+    .first-grid {
+        height: 568px;
+        width: 343px;
+        margin-bottom: 32px;
+        flex-direction: column-reverse;
+    }
+
+    .grid1 {
+        width: 343px;
+        height: 320px;
+        border: 0;
+        left: 0;
+        margin-bottom: 25px;
+    }
+
+    .grid-words {
+        width: 343px;
+        height: 223px;
+        bottom: 0;
+    }
+
+    .brk {
+        display: block;
+    }
+
+    .words {
+        width: 343px;
+        height: 223px;
+        bottom: 0;
+        margin-top: 0px;
+    }
+
+    .words h1 {
+        font-size: 50px;
+        line-height: 45px;
+        height: 90px;
+        width: 343px;
+        margin: 0 0 21px 0;
+    }
+
+    .grid-words .words p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 343px;
+        height: 112px;
+        margin: 0px;
+        font-weight: 300;
+    }
+
+    .second-grid {
+        display: flex;
+        flex-direction: column;
+        height: 1005px;
+        width: 343px;
+        margin: 0;
+    }
+
+    .grid2 {
+        width: 343px;
+        height: 480px;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+
+    .grid3-group {
+        width: 343px;
+        height: 509px;
+        margin-left: 0;
+    }
+    .grid3 {
+        width: 343px;
+        height: 200px;
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+    .grid-words-low .words {
+        margin: 48px 24px 47px 24px;
+        width: 295px;
+        height: 198px;
+    }
+
+    .grid-words-low {
+        width: 343px;
+        height: 293px;
+        margin-right: 0;
+    }
+
+    .grid-words-low .words h1 {
+        line-height: 45px;
+        width: 180px;
+        height: 90px;
+        margin-bottom: 24px;
+    }
+
+    .location-mid {
+        height: 493px;
+        width: 375px;
+        flex-direction: column;
+    }
+
+    .loc-body {
+        width: 376px;
+        height: 1379px;
+        background: #ffffff;
+    }
+
+    .our {
+        height: 93px;
+        padding-top: 48px;
+        padding-left: 16px;
+        width: 375px;
+    }
+
+    .our h1 {
+        margin-bottom: 133px;
+        font-size: 50px;
+        margin: 0;
+        width: 343px;
+        line-height: 45px;
+    }
+
+    .king {
+        margin: 0px;
+        height: 400px;
+        width: 375px;
+    }
+
+    .street {
+        margin: 0px;
+        height: 400px;
+        width: 375px;
+        padding-top: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .street h2 {
+        line-height: 32px;
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .street span {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .street p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .grid-words-low .words p {
+        color: #ffffff;
+        width: 295px;
+        margin: 0;
+    }
+
+    .brk2 {
+        display: none;
     }
 }
