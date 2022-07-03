@@ -119,14 +119,14 @@
 /* spcific location css */
 
 .loc-body {
-    width: 1440px;
+    width: 100vw;
     height: 1392px;
     background: #ffffff;
 }
 
 .location-mid {
     height: 548px;
-    width: 1440px;
+    width: 100vw;
     background-color: rgb(21, 21, 21);
     display: flex;
     flex-direction: row;
@@ -156,7 +156,7 @@
 }
 
 .street {
-    width: 540px;
+    width: 46vw;
     margin-top: 104px;
     margin-left: 15px;
 }
@@ -189,11 +189,11 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
     .container {
         height: 1131px;
         width: 689px;
-        left: 39px;
+        left: 8vw;
         top: 820px;
     }
 
@@ -258,7 +258,7 @@
     }
     .location-mid {
         height: 436px;
-        width: 768px;
+        width: 100vw;
     }
 
     .loc-body {
@@ -298,7 +298,7 @@
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
     .container {
         height: 1605px;
         width: 343px;
@@ -403,7 +403,7 @@
 
     .location-mid {
         height: 493px;
-        width: 375px;
+        width: 100vw;
         flex-direction: column;
     }
 

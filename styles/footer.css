@@ -18,7 +18,7 @@
     background: rgb(213, 150, 108);
     color: rgb(21, 21, 21);
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     height: 244px;
     display: flex;
     flex-direction: row;
@@ -107,16 +107,16 @@ footer .socials {
     content: url('../assets/icon-twitter3.svg');
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
     .h-footer {
-        width: 768px;
+        width: 100vw;
         height: 216px;
         top: 2071px;
     }
     
     .loc-footer {
         position: absolute;
-        width: 768px;
+        width: 100vw;
         height: 216px;
     }
     footer .para {
@@ -140,7 +140,7 @@ footer .socials {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 480px) {
 
     footer .heading, footer .socials {
         width: 311px;
@@ -153,7 +153,7 @@ footer .socials {
     }
 
     .h-footer {
-        width: 375px;
+        width: 100vw;
         height: 336px;
         top: 2475px;
         flex-direction: column;
@@ -161,7 +161,7 @@ footer .socials {
     
     .loc-footer {
         position: absolute;
-        width: 375px;
+        width: 100vw;
         height: 336px;
         flex-direction: column;
     }
